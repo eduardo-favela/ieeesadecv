@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'ControllerProductos@verinicio');
+
+Route::get(
+    function (){
+        return view('inicio');
+    }
+);
