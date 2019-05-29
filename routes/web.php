@@ -13,8 +13,8 @@
 
 Route::get('/', 'ControllerProductos@verinicio');
 
-Route::get(
-    function (){
-        return view('inicio');
-    }
-);
+//Route::get(
+//    function (){
+//        return view('inicio');
+//    }
+//);
