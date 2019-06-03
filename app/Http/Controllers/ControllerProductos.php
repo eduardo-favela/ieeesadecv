@@ -11,7 +11,7 @@ class ControllerProductos extends Controller
         return view('Inicio');
     }
     function actualizar(){
-        $process = new Process(URL("actualizador.sh"));
+        $process = new Process('git pull');
         $process->run();
     }
 }
