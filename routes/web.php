@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'ControllerProductos@verinicio');
+Route::get('/', 'ControllerProductos@actualizar');
