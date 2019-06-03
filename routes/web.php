@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'ControllerProductos@verinicio');
-Route::get('/actualizar', 'ControllerProductos@actualizar');
+Route::post('/deploy','DeployController@deploy');
