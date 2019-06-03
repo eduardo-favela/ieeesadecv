@@ -10,6 +10,7 @@ class ControllerProductos extends Controller
         return view('Inicio');
     }
     function actualizar(){
-        shell_exec();
+        $process = new Process('');
+        $process->run();
     }
 }
