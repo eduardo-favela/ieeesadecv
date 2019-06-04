@@ -6,7 +6,7 @@
     @parent
 @show
 @section('Contenido')
-<p>Hola</p>
+<p>adios</p>
 @endsection
 @section('js')
 @endsection
