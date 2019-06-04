@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
+use Symfony\Component\Process\Process;
 
 class DeployController extends Controller
 {
@@ -11,12 +13,11 @@ class DeployController extends Controller
         $githubPayload = $request->getContent();
         $githubHash = $request->header('X-Hub-Signature');
         $localToken = config('app.deploy_secret');
-        $localHash = 'sha1=' . hash_hmac('sha1', $githubPayload, $localToken, false);
+        $localHash = 'sha1='.hash_hmac('sha1', $githubPayload, $localToken, false);
         if (hash_equals($githubHash, $localHash)) {
-            $root_path = base_path();
-            $process = new Process('cd ' . $root_path . '; ./deploy.sh');
+            $process = new Process(['./'.'ieeesadecv/public/deploy.sh'],null,[null],[null],null);
             $process->run(function ($type, $buffer) {
-                echo $buffer;
+                dd($buffer);
             });
         }
     }
