@@ -6,6 +6,7 @@
     @parent
 @show
 @section('Contenido')
+    <h1>sdfghjhgfdxcvbn</h1>
 @endsection
 @section('js')
 @endsection
