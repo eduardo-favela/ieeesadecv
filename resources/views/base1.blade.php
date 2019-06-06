@@ -31,7 +31,7 @@
                      <i class="material-icons">contact_mail</i>
                      Contacto
                  </a>
-                 <a class="dropdown-item" href="#">Another action</a>
+                 <a class="dropdown-item" href="#">Otra acción</a>
                  <a class="dropdown-item" href="#">Something else here</a>
              </div>
          </div>
