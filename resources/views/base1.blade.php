@@ -30,14 +30,17 @@
              </button>
              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                  <a class="dropdown-item" href="#">
-                     <i class="material-icons">contact_mail</i>
+                     <i style='font-size:20px' class='fas'>&#xf02c;</i>
+                     Productos</a>
+                 <a class="dropdown-item" href="#">
+                     <i style='font-size:20px' class='fas'>&#xf7d9;</i>
+                        Servicios
+                 </a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">
+                     <i class="material-icons" style="font-size: 23px">contact_mail</i>
                      Contacto
                  </a>
-                 <a class="dropdown-item" href="#">
-                     <i style='font-size:24px' class='fas'>&#xf54a;</i>
-                     Servicios
-                 </a>
-                 <a class="dropdown-item" href="#">Productos</a>
              </div>
          </div>
      </nav>
