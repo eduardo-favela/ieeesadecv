@@ -26,8 +26,10 @@
 <body>
 @section('nav')
 
-     <nav class="navbar navbar-light bg-light" style="border-bottom-style:solid;border-bottom-color:#428bca;border-bottom-width:2px">
-         <a class="navbar-brand" style="font-family: 'Allerta Stencil', sans-serif;font-size:38px; color:#428bca;">Ieee s.a. de c.v.</a>
+     <header class="navbar fixed-top navbar-light bg-light" style="border-bottom-style:solid;border-bottom-color:#428bca;border-bottom-width:2px;">
+         <a class="navbar-brand">
+             <img src="images/IEEE.png" style="width:198px;height:90px;">
+         </a>
          <div class="dropdown">
              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Más información
@@ -47,7 +49,7 @@
                  </a>
              </div>
          </div>
-     </nav>
+     </header>
 @show
 @section('Contenido')
 
