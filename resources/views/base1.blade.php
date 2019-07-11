@@ -28,7 +28,7 @@
 
      <header class="navbar fixed-top navbar-light bg-light" style="border-bottom-style:solid;border-bottom-color:#428bca;border-bottom-width:2px;">
          <a class="navbar-brand">
-             <img src="../../public/images/IEEE.png" style="width:198px;height:90px;">
+             <img src="/images/IEEE.png" style="width:198px;height:90px;">
          </a>
          <div class="dropdown">
              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
