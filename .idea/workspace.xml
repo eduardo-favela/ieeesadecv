@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c6973a-e8e9-4d44-a732-78421ae8e9e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/images/dorada.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/dorada.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/fondo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/fondo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Inicio.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +44,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Inicio.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+            <state relative-caret-position="312">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
-                <element signature="e#125#329#0#HTML" expanded="true" />
+                <element signature="e#125#368#0#HTML" expanded="true" />
+                <element signature="e#359#434#0#HTML" expanded="true" />
+                <element signature="e#440#466#0#HTML" expanded="true" />
+                <element signature="e#407#610#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,6 +231,17 @@
             <path>
               <item name="ieeesadecv" type="b2602c69:ProjectViewProjectNode" />
               <item name="ieeesadecv" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ieeesadecv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ieeesadecv" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ieeesadecv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ieeesadecv" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,12 +316,12 @@
       <workItem from="1560789192936" duration="10137000" />
       <workItem from="1562029025677" duration="1795000" />
       <workItem from="1562187742456" duration="4038000" />
-      <workItem from="1562858790712" duration="6572000" />
+      <workItem from="1562858790712" duration="9733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86861000" />
+    <option name="totallyTimeSpent" value="90022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -467,10 +483,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Inicio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        <state relative-caret-position="312">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="e#125#329#0#HTML" expanded="true" />
+            <element signature="e#125#368#0#HTML" expanded="true" />
+            <element signature="e#359#434#0#HTML" expanded="true" />
+            <element signature="e#440#466#0#HTML" expanded="true" />
+            <element signature="e#407#610#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
