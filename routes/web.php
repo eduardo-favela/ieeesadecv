@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', 'ControllerProductos@verinicio');
+Route::get('/', 'Controllerroutes@verinicio');
+Route::get('/productos', 'Controllerroutes@verproductos');
 Route::post('/deploy','DeployController@deploy');
