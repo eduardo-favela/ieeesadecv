@@ -20,7 +20,8 @@ height:500px; text-align: center">
     </div>
 </div>
 <br><br>
-<p style="text-align:center; font-size:35px; font-family:'Simplifica'; letter-spacing:12px; text-decoration: underline;">Control, Medición y Automatización</p>
+<p style="text-align:center; font-size:35px; font-family: 'Open Sans Condensed', sans-serif;
+ letter-spacing:12px; text-decoration: underline;">Control, Medición y Automatización</p>
 <br><br>
 <div class="col-md-12" style="background-image:url('/images/paneles.jpeg');
  background-repeat: no-repeat;
