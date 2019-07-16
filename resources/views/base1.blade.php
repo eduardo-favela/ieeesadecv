@@ -38,7 +38,8 @@
 <body>
 @section('nav')
 
-     <header class="navbar fixed-top navbar-light" style="border-bottom-style:solid;border-bottom-color:#262689;border-bottom-width:1px; background-color: #FFFFFF;">
+     <header class="navbar fixed-top navbar-light"
+             style="border-bottom-style:solid;border-bottom-color:#262689;border-bottom-width:1px; background-color: #FFFFFF;">
          <a class="navbar-brand" href="/">
              <img src="/images/IEEE.png" style="width:198px;height:90px;">
          </a>
