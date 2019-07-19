@@ -33,6 +33,10 @@
             white-space: pre-wrap;
         }
 
+        .active {
+            background-color: #FFFFFF !important;
+            box-shadow: none !important;
+        }
     </style>
 </head>
 <body>
@@ -79,16 +83,20 @@
             }
         });
     });
+    $("#dropdownMenuButton").click(function(){
+        $("#dropdownMenuButton").removeClass("active");
+        $(this).addClass("active");
+    });
 </script>
 </body>
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4" style="background-color: #262689">
+<footer class="page-footer font-small blue pt-4" style="background-color: #262689;">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left" style="border-top-style: solid;border-top-color:#ffffff; border-top-width: 1px;">
 
         <div class="row">
-            <div class="col-md-4 offset-4">
+            <div class="col-md-8 offset-4">
                 <p style="text-align: center; color: #FFFFFF;">
                     Ingeniería Electrónica y Equipos Eléctricos.
                 </p>
@@ -100,9 +108,9 @@
                     Paseo de la soledad #540, col. Ampliación la rosita, Torreón Coahuila, México, C.P. 27250
                 </p>
             </div>
-            <div class="col-md-2" style="text-align: center;">
+            <div class="col-md-2" style="text-align: center; padding-top: 7px">
                 <a href="http://ieeesadecv.com/contacto" id="telefono" style="display:inline-block; font-size: 27px;" data-placement="right" title="(871)-193-95-88
-(871)-204-11-47"><i class="fas fa-phone-alt" style="color:#ffffff"></i></a>
+(871)-204-11-47"><i class="fas fa-phone-alt" style="color:#ffffff;"></i></a>
             </div>
             <div class="col-md-2" style="text-align: center">
                 <a href="https://www.facebook.com/Ingenier%C3%ADa-Electr%C3%B3nica-Y-Equipos-El%C3%A9ctricos-816338422084555/"
@@ -119,7 +127,7 @@
         </div>
     </div>
     <div class="footer-copyright text-center py-3" style="color: #FFFFFF; background-color: #1b1e21">© 2019 Copyright:
-        <a href="https://ieeesadecv.com" style="color: #FFFFFF;">Ieee s.a. de c.v.</a>
+        <a href="https://ieeesadecv.com" style="color: #FFFFFF;">ieee s.a. de c.v.</a>
     </div>
     <!-- Copyright -->
 </footer>
