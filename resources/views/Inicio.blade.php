@@ -32,8 +32,10 @@ height:500px; text-align: center;">
         background-size: cover;
 height:500px">
 </div>
-<br><br><br><br><br><br>
-<h5>hola</h5>
+    <br><br>
+    <p style="text-align:center; font-size:35px; font-family: 'Open Sans Condensed', sans-serif;
+ letter-spacing:2px;">Nos dedicamos a la comercialización de sistemas de medición para el control de procesos industriales.</p>
+    <br><br>
 @endsection
 @section('js')
 @endsection
