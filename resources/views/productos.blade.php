@@ -128,41 +128,40 @@
     <br><br><br>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;">
-                    <img src="images/infrarrojo.png" alt="Vega" id="medidores" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="medidores" onclick="return showinfo(this);">
+                    <img src="images/infrarrojo.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;">
-                    <img src="images/agitador.png" id="agitadores" alt="AFX" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="agitadores"  onclick="return showinfo(this);">
+                    <img src="images/agitador.png" alt="AFX" >
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Agitadores</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;">
-                    <img src="images/barometro.png" alt="Vega" id="radares" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;"  id="radares" onclick="return showinfo(this);">
+                    <img src="images/barometro.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Radares</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2 boxShadow" style="text-align: center;">
-                    <img src="images/agua.png" alt="Nivus" style="height: 100px; width: 100px; padding-top:5%;"
-                         id="fluidos" onclick="return showinfo(this);">
+            <div class="col-md-2 boxShadow" style="text-align: center;"  id="fluidos" onclick="return showinfo(this);">
+                    <img src="images/agua.png" alt="Nivus" style="height: 100px; width: 100px; padding-top:5%;">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Fluidos</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;">
-                    <img src="images/contenedordecarga.png" id="contenedores" alt="Contenedor" style="height: 100px; width: 100px" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="contenedores" onclick="return showinfo(this);">
+                    <img src="images/contenedordecarga.png" alt="Contenedor"  style="height: 100px; width: 100px" >
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Contenedores</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;">
-                    <img src="images/radarvelocidad.png" id="analizadores" alt="Mintek" style="height: 100px; width: 100px" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="analizadores"  onclick="return showinfo(this);">
+                    <img src="images/radarvelocidad.png" style="height: 100px; width: 100px"  alt="Mintek">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Analizadores</p>

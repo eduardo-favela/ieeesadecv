@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c6973a-e8e9-4d44-a732-78421ae8e9e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/servicios.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controllerroutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controllerroutes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/base1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/productos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/productos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +53,16 @@
         <entry file="file://$PROJECT_DIR$/resources/views/productos.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="66" column="95" selection-start-line="66" selection-start-column="95" selection-end-line="66" selection-end-column="95" />
+              <caret line="157" column="85" lean-forward="true" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#5188#5348#0#HTML" expanded="true" />
+                <element signature="e#7016#7068#0#HTML" expanded="true" />
+                <element signature="e#7535#7570#0#HTML" expanded="true" />
+                <element signature="e#7778#7805#0#HTML" expanded="true" />
+                <element signature="e#7924#7959#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/contacto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -324,12 +324,12 @@
       <workItem from="1565097399051" duration="12596000" />
       <workItem from="1565121950501" duration="2275000" />
       <workItem from="1565183976155" duration="11694000" />
-      <workItem from="1565208491125" duration="3724000" />
+      <workItem from="1565208491125" duration="4908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176411000" />
+    <option name="totallyTimeSpent" value="177595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -563,19 +563,23 @@
     <entry file="file://$PROJECT_DIR$/resources/views/contacto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/productos.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="66" column="95" selection-start-line="66" selection-start-column="95" selection-end-line="66" selection-end-column="95" />
+          <caret line="157" column="85" lean-forward="true" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#5188#5348#0#HTML" expanded="true" />
+            <element signature="e#7016#7068#0#HTML" expanded="true" />
+            <element signature="e#7535#7570#0#HTML" expanded="true" />
+            <element signature="e#7778#7805#0#HTML" expanded="true" />
+            <element signature="e#7924#7959#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
