@@ -13,5 +13,6 @@
 
 Route::get('/','Controllerroutes@verinicio');
 Route::get('/productos','Controllerroutes@verproductos');
+Route::get('/contacto','Controllerroutes@vercontacto');
 Route::post('/deploy','DeployController@deploy');
 Route::post('/filtroproductos','ControllerProductos@productosfiltrados');

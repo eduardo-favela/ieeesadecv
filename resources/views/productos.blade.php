@@ -56,18 +56,20 @@
                         $('#progressbar').css('display','none');
                         nombres.empty();
                             $.each(response, function(i,r){
-                                cont+='<div class="card col-md-4 offset-1" id="card">' +
-                                    '  <img class="card-img-top" src="/images/Equipos/'+r.imagen+'" alt="Card image cap" style="padding-top: 5%; width: 348px; height:348px;">' +
+                                cont+=
+                                    '<div class="card col-md-3 offset-1" id="card" style="margin-top: 5%">' +
+                                    '  <img class="card-img-top" id="cardimage" src="/images/Equipos/'+r.imagen+'" alt="Card image cap" ' +
+                                    'style="padding-top: 5%; width:100%px; height:100%px;">' +
                                     '  <div class="card-body">' +
-                                    '<h5 class="card-title" id="titulocard">'+r.nombre+'</h5>'+
+
                                     '  </div>' +
                                     '<div class="card-footer">' +
+                                    '<h5 class="card-title" id="titulocard">'+r.nombre+'</h5>'+
                                     '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>' +
                                     '</div>' +
                                     '</div>'
                             });
                             nombres.append(cont);
-
                     }
                 });
             }
@@ -118,7 +120,7 @@
             <div class="col-md-8 offset-2">
                 <p style="color: #1b1e21;text-align:center;
         font-size:80px; letter-spacing: 50px;
-        font-family: 'Open Sans Condensed', sans-serif;">Productos</p>
+        font-family: 'Open Sans Condensed', sans-serif; padding-left:5%;">Productos</p>
                 <hr style="border: none; height: 1.2px;color: #333;background-color: #333;">
             </div>
         </div>

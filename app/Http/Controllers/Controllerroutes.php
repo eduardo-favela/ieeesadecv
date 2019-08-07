@@ -13,4 +13,7 @@ class controllerroutes extends Controller
     function verproductos(){
         return view('productos');
     }
+    function vercontacto(){
+        return view('contacto');
+    }
 }

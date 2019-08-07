@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IEEE | Ingeniería electrónica y equipos eléctricos</title>
+    <title>IEEE | Ingeniería Electrónica y Equipos Eléctricos</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="js/jquery-3.3.1.js"></script>
@@ -62,7 +62,7 @@
                         Servicios
                  </a>
                  <div class="dropdown-divider"></div>
-                 <a class="dropdown-item" href="#">
+                 <a class="dropdown-item" href="/contacto">
                      <i class="material-icons" style="font-size: 23px">contact_mail</i>
                      Contacto
                  </a>
@@ -109,7 +109,7 @@
                 </p>
             </div>
             <div class="col-md-2" style="text-align: center; padding-top: 7px">
-                <a href="http://ieeesadecv.com/contacto" id="telefono" style="display:inline-block; font-size: 27px;" data-placement="right" title="(871)-193-95-88
+                <a href="/contacto" id="telefono" style="display:inline-block; font-size: 27px;" data-placement="right" title="(871)-193-95-88
 (871)-204-11-47"><i class="fas fa-phone-alt" style="color:#ffffff;"></i></a>
             </div>
             <div class="col-md-2" style="text-align: center">
@@ -119,7 +119,7 @@
                 </a>
             </div>
             <div class="col-md-2" style="text-align: center">
-                <a href="http://ieeesadecv.com/contacto"
+                <a href="/contacto"
                    style="text-align: center;display: inline-block; font-size: 27px;" class="btn btn-social-icon btn-facebook">
                     <i class="fas fa-envelope" style="color: #ffffff"></i>
                 </a>
