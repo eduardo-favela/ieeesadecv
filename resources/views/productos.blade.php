@@ -87,7 +87,8 @@
                     "border-top-left-radius": "5px",
                     "border-top-right-radius":"5px",
                     "border-bottom-right-radius":"5px",
-                    "border-bottom-left-radius": "5px"
+                    "border-bottom-left-radius": "5px",
+                    "border-color":"#FFFFFF"
                 });
             });
         });
@@ -132,10 +133,10 @@
                     <img src="images/infrarrojo.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
-                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores</p>
+                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de carga</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="agitadores"  onclick="return showinfo(this);">
-                    <img src="images/agitador.png" alt="AFX" >
+            <div class="col-md-2 offset-2 boxShadow" type="button" style="text-align: center; background-color: #FFFFFF;border-color: #FFFFFF" id="agitadores"  onclick="return showinfo(this);">
+                    <img src="images/agitador.png" alt="AFX">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Agitadores</p>
@@ -144,7 +145,7 @@
                     <img src="images/barometro.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
-                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Radares</p>
+                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de nivel</p>
             </div>
         </div>
         <div class="row">
@@ -152,7 +153,7 @@
                     <img src="images/agua.png" alt="Nivus" style="height: 100px; width: 100px; padding-top:5%;">
                     <br>
                     <p style="text-align: center; color: #292986;
-                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Fluidos</p>
+                     font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de flujo</p>
             </div>
             <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="contenedores" onclick="return showinfo(this);">
                     <img src="images/contenedordecarga.png" alt="Contenedor"  style="height: 100px; width: 100px" >
