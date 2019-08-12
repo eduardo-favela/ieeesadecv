@@ -135,7 +135,7 @@
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de carga</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" type="button" style="text-align: center; background-color: #FFFFFF;border-color: #FFFFFF" id="agitadores"  onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="agitadores"  onclick="return showinfo(this);">
                     <img src="images/agitador.png" alt="AFX">
                     <br>
                     <p style="text-align: center; color: #292986;

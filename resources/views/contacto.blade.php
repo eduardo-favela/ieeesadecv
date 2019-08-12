@@ -52,6 +52,15 @@
             });
         }
     }
+    function eliminar() {
+        $("textarea[id=mensaje]").val('');
+        $("input[id=nombre]").val('');
+        $("input[id=email]").val('');
+        $("input[id=telefono]").val('');
+        $("input[id=asunto]").val('');
+
+        nombre.focus();
+    }
 </script>
 @section('Contenido')
     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -85,7 +94,7 @@
                    <div class="form-group">
                        <textarea name="mensaje" cols="35" rows="8" class="form-control" id="mensaje" placeholder="Su mensaje"></textarea>
                    </div>
-                   <button type="reset" class="btn btn-danger">Borrar</button>
+                   <button type="button" onclick="return eliminar();" class="btn btn-danger">Borrar</button>
 
                    <button type="button" onclick="return sendmail();" class="btn btn-primary">Enviar</button>
 
