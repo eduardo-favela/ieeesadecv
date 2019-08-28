@@ -16,4 +16,7 @@ class controllerroutes extends Controller
     function vercontacto(){
         return view('contacto');
     }
+    function verservicios(){
+        return view('servicios');
+    }
 }

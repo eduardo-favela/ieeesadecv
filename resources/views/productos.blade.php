@@ -14,12 +14,9 @@
             var cont="";
             var nombres = $("#productos");
             if(nombres.text().length==0){
-
                         $('#progressbar').show(),
-
                             $.ajax({
                                 url:"/filtroproductos",
-                                // en data se envían los datos
                                 data:{tipo:tipodeproducto,_token:token},
                                 type:"post",
                                 dataType:'json',
@@ -29,12 +26,13 @@
                                     nombres.empty();
                                         $.each(response, function(i,r){
                                             cont+='<div class="card col-md-4 offset-1" id="card">' +
-                                                '  <img class="card-img-top" src="/images/Equipos/'+r.imagen+'" alt="Card image cap" style="padding-top: 5%; width: 348px; height:348px;">' +
+                                                '  <img class="card-img-top" src="/images/Equipos/'+r.imagen+
+                                                '" alt="Card image cap" style="padding-top: 5%; width: 348px; height:348px;">' +
                                                 '  <div class="card-body">' +
                                                 '<h5 class="card-title" id="titulocard">'+r.nombre+'</h5>'+
                                                 '  </div>' +
                                                 '<div class="card-footer">' +
-                                                '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>' +
+                                                '<p class="card-text">'+r.descripcion+'</p>' +
                                                 '</div>' +
                                                 '</div>'
                                         });
@@ -129,19 +127,19 @@
     <br><br><br>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="medidores" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center; cursor:pointer;" id="medidores" onclick="return showinfo(this);">
                     <img src="images/infrarrojo.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de carga</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="agitadores"  onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;cursor:pointer; padding-top:2%;" id="agitadores"  onclick="return showinfo(this);">
                     <img src="images/agitador.png" alt="AFX">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Agitadores</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;"  id="radares" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;cursor:pointer; padding-top:2%;"  id="radares" onclick="return showinfo(this);">
                     <img src="images/barometro.png" alt="Vega">
                     <br>
                     <p style="text-align: center; color: #292986;
@@ -149,19 +147,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2 boxShadow" style="text-align: center;"  id="fluidos" onclick="return showinfo(this);">
+            <div class="col-md-2 boxShadow" style="text-align: center;cursor:pointer;"  id="fluidos" onclick="return showinfo(this);">
                     <img src="images/agua.png" alt="Nivus" style="height: 100px; width: 100px; padding-top:5%;">
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Medidores de flujo</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="contenedores" onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;cursor:pointer;" id="contenedores" onclick="return showinfo(this);">
                     <img src="images/contenedordecarga.png" alt="Contenedor"  style="height: 100px; width: 100px" >
                     <br>
                     <p style="text-align: center; color: #292986;
                      font-family:'Open Sans Condensed', sans-serif; font-size: 25px">Contenedores</p>
             </div>
-            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;" id="analizadores"  onclick="return showinfo(this);">
+            <div class="col-md-2 offset-2 boxShadow" style="text-align: center;cursor:pointer;" id="analizadores"  onclick="return showinfo(this);">
                     <img src="images/radarvelocidad.png" style="height: 100px; width: 100px"  alt="Mintek">
                     <br>
                     <p style="text-align: center; color: #292986;

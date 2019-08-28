@@ -10,7 +10,6 @@ class ControllerProductos extends Controller
 {
     function productosfiltrados(Request $request){
         $tipoproducto=$request->get('tipo');
-
         $productos=Producto::all()->where('tipo_producto','=',$tipoproducto);
 
         return($productos);

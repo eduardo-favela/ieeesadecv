@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <title>IEEE | Ingeniería Electrónica y Equipos Eléctricos</title>
 
@@ -57,10 +57,10 @@
                  <a class="dropdown-item" href="/productos">
                      <i style='font-size:20px' class='fas'>&#xf02c;</i>
                      Productos</a>
-                 <a class="dropdown-item" href="#">
-                     <i style='font-size:20px' class='fas'>&#xf7d9;</i>
-                        Servicios
-                 </a>
+{{--                --}}{{-- <a class="dropdown-item" href="/servicios">--}}
+{{--                     <i style='font-size:20px' class='fas'>&#xf7d9;</i>--}}
+{{--                        Servicios--}}
+{{--                 </a>--}}
                  <div class="dropdown-divider"></div>
                  <a class="dropdown-item" href="/contacto">
                      <i class="material-icons" style="font-size: 23px">contact_mail</i>
