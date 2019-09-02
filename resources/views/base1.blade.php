@@ -42,31 +42,23 @@
 <body>
 @section('nav')
 
-     <header class="navbar fixed-top navbar-light"
+     <header class="navbar fixed-top navbar-light "
              style="border-bottom-style:solid;border-bottom-color:#262689;border-bottom-width:1px; background-color: #FFFFFF;">
          <a class="navbar-brand" href="/">
              <img src="/images/IEEE.png" style="width:198px;height:90px;">
          </a>
-         <div class="dropdown">
-             <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                     data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false" style="color: #262689; border-color: #262689;">
-                 Más información
-             </button>
-             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                 <a class="dropdown-item" href="/productos">
-                     <i style='font-size:20px' class='fas'>&#xf02c;</i>
-                     Productos</a>
-{{--                --}}{{-- <a class="dropdown-item" href="/servicios">--}}
-{{--                     <i style='font-size:20px' class='fas'>&#xf7d9;</i>--}}
-{{--                        Servicios--}}
-{{--                 </a>--}}
-                 <div class="dropdown-divider"></div>
-                 <a class="dropdown-item" href="/contacto">
-                     <i class="material-icons" style="font-size: 23px">contact_mail</i>
-                     Contacto
-                 </a>
+
+         <div class="d-flex justify-content-end">
+             <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
+                 <a class="dropdown-item" href="/productos" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf02c;</i>Productos</a>
              </div>
+             <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
+                 <a class="dropdown-item" href="/servicios" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf7d9;</i>Servicios</a>
+             </div>
+             <div class="p-2 bd-highlight">
+                 <a class="dropdown-item" href="/contacto" style="font-size: 20px"><i class="material-icons" style="font-size:23px; margin-right:8px;">contact_mail</i>Contacto</a>
+             </div>
+
          </div>
      </header>
 @show
