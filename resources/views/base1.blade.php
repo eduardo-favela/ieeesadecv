@@ -37,6 +37,15 @@
             background-color: #FFFFFF !important;
             box-shadow: none !important;
         }
+        /*.p-2:hover>{*/
+        /*    background-color: #262689;*/
+        /*    color: #FFFFFF;*/
+        /*}*/
+        .p-2:hover>a{
+            background-color: #262689;
+            color: #FFFFFF;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -50,7 +59,7 @@
 
          <div class="d-flex justify-content-end">
              <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
-                 <a class="dropdown-item" href="/productos" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf02c;</i>Productos</a>
+                 <a class="dropdown-item" href="/productos" style="font-size: 20px; text"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf02c;</i>Productos</a>
              </div>
              <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
                  <a class="dropdown-item" href="/servicios" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf7d9;</i>Servicios</a>
