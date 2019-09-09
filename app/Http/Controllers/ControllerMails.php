@@ -23,10 +23,12 @@ class ControllerMails extends Controller
         $asunto=$request->get('asunto');
         $data=array(
             'mensaje'=>$mensaje,
-            'telefono'=>$telefono
+            'telefono'=>$telefono,
+            'email'=>$email,
+            'nombre'=>$nombre
         );
-        Mail::send('correo',$data,function ($message) use ($asunto, $email,$nombre){
-            $message->from($email,$nombre);
+        Mail::send('correo',$data,function ($message) use ($asunto,$email,$nombre){
+            $message->from('mensajero@ieeesadecv.com',$nombre);
             $message->to('arturo99favela@gmail.com')->subject($asunto);
         });
         $confirm='Mensaje enviado correctamente, nos contactaremos con usted lo antes posible';
