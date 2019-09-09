@@ -5,14 +5,14 @@
     <title></title>
 </head>
     <body>
-    <strong><p style="font-size:15px;">Correo enviado desde la página web https://ieeesadecv.com</p></strong>
+    <strong><p style="font-size:20px;">Correo enviado desde la página web https://ieeesadecv.com</p></strong>
     <br>
 
 <p>{{$mensaje}}</p>
     <br>
-    <p>Información de contacto:</p>
-<p>Teléfono: {{$telefono}}</p>
-    <p>Correo electrónico: {{$email}}</p>
-    <p>Nombre: {{$nombre}}</p>
+    <strong style="font-size:15px;"><p>Información de contacto:</p></strong>
+<strong><p>Teléfono:</strong> {{$telefono}}</p>
+    <strong><p>Correo electrónico:</strong> {{$email}}</p>
+    <strong><p>Nombre:</strong> {{$nombre}}</p>
 </body>
 </html>
