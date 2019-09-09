@@ -49,7 +49,7 @@
                     cont2.show();
                     cont2.append(cont);
                     $("textarea[id=mensaje]").val('');
-                    nombress=$("input[id=nombre]").val('');
+                   var nombress=$("input[id=nombre]").val('');
                     $("input[id=email]").val('');
                     $("input[id=telefono]").val('');
                     $("input[id=asunto]").val('');
