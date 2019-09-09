@@ -3,6 +3,10 @@
 <head>
     <title>IEEE | Ingeniería Electrónica y Equipos Eléctricos</title>
 
+
+
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="js/jquery-3.3.1.js"></script>
 {{--    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>--}}
@@ -45,6 +49,7 @@
             background-color: #262689;
             color: #FFFFFF;
             border-radius: 5px;
+            transition-delay: .09s;
         }
     </style>
 </head>
