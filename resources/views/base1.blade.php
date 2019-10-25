@@ -66,11 +66,11 @@
              <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
                  <a class="dropdown-item" href="/productos" style="font-size: 20px;"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf02c;</i>Productos</a>
              </div>
-             <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">
-                 <a class="dropdown-item" href="/servicios" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf7d9;</i>Servicios</a>
-             </div>
+{{--             <div class="p-2 bd-highlight" style="border-right: 1px solid #333333;">--}}
+{{--                 <a class="dropdown-item" href="/servicios" style="font-size: 20px"><i style='font-size:20px;margin-right:8px;' class='fas'>&#xf7d9;</i>Servicios</a>--}}
+{{--             </div>--}}
              <div class="p-2 bd-highlight">
-                 <a class="dropdown-item" href="/contacto" style="font-size: 20px"><i class='fas'>&#xf674;</i>Contacto</a>
+                 <a class="dropdown-item" href="/contacto" style="font-size: 20px"><i class='fas'>&#xf674;</i>  Contacto</a>
              </div>
 
          </div>
