@@ -15,6 +15,6 @@ Route::get('/','Controllerroutes@verinicio');
 Route::get('/productos','Controllerroutes@verproductos');
 Route::get('/contacto','Controllerroutes@vercontacto');
 Route::get('/servicios','Controllerroutes@verservicios');
-Route::get('/deploy','DeployController@deploy');
+Route::post('/deploy','DeployController@deploy');
 Route::post('/filtroproductos','ControllerProductos@productosfiltrados');
 Route::post('/sendmail','ControllerMails@enviarcorreo2');
